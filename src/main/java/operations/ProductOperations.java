@@ -27,6 +27,7 @@ public class ProductOperations {
         Product p = Product.builder().name(name).price(price).producerId(id).build();
         System.out.println(addProduct(p));
         System.out.println("Dodano produkt");
+        System.out.println("XD");
     }
 
     public Product addProduct(Product p){
